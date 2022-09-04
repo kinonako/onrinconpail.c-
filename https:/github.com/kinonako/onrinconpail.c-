@@ -1,14 +1,12 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(void){
-int n,ans;
-std::random_device rnd;
-n=std::random_device rnd;
+int n=rand() % 30 + 1,ans;
 for(int i=0;i==n;i++){
 cout<<"Numder?"<<endl;
 cin>>ans;
-if(ans<n){cout<<more big<<endl;}
-else{cout<<more small<<endl;}
+if(ans<n){cout<<"more big"<<endl;}
+else{cout<<"more small"<<endl;}
 }
 cout<<"nice!!"<<endl;
 return 0;
